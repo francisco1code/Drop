@@ -6,4 +6,7 @@ server.get('/',(req, res) => {
     res.send("hello world")
 })
 
-server.listen(3000)
+var PORT = process.env.PORT || 3333
+
+
+server.listen(PORT)
