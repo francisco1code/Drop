@@ -1,0 +1,21 @@
+{
+  "name": "drop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ",
+    "dev": "nodemon app.js"
+  },
+  "repository": "https://github.com/francisco1code/Drop.git",
+  "author": "Francisco Emanoel Ferreira da Penha <francisco170142329@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "koa": "^2.13.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}
