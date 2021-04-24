@@ -3,7 +3,7 @@ const express = require('express');
 server = express()
 
 server.get('/',(req, res) => {
-    res.send("Hora hora deu certo!!!")
+    res.send("carai nao e q manjo do devops mesmo")
 })
 
 var PORT = process.env.PORT || 3333
