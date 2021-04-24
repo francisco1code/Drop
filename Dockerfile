@@ -12,5 +12,8 @@ RUN yarn install
 
 
 EXPOSE 3333
+EXPOSE 3333
+EXPOSE 3333
+EXPOSE 3333
 
 CMD ["yarn", "dev"]
